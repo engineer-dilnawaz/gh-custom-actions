@@ -71,10 +71,10 @@ jobs:
           bucket: dilnawaz-custom-action-hosting
           dist-folder: ./dist
           # bucket-region: us-east-1
-  information:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get code
-        uses: actions/checkout@v4
-      - name: Run custom action
-        uses: ./.github/actions/deploy-s3-javascript
+  # information:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Get code
+  #       uses: actions/checkout@v4
+  #     - name: Run custom action
+  #       uses: ./.github/actions/deploy-s3-javascript
